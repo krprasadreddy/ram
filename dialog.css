@@ -896,10 +896,8 @@ body .ui-tooltip {
 	font-family: Verdana,Arial,sans-serif;
 	font-size: 1em;
 }
-.ui-widget-content {
-    border: 1px solid #4bc076;
-    background: #ffffff;
-    color: #222222;
+.ui-widget.ui-widget-content {
+	border: 1px solid #d3d3d3;
 }
 .ui-widget-content {
 	border: 1px solid #aaaaaa;
@@ -910,7 +908,10 @@ body .ui-tooltip {
 	color: #222222;
 }
 .ui-widget-header {
-	background: f8f8f8
+	border: 1px solid #aaaaaa;
+	background: #cccccc url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+	color: #222222;
+	font-weight: bold;
 }
 .ui-widget-header a {
 	color: #222222;
@@ -927,10 +928,10 @@ body .ui-tooltip {
 works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
-	border: 1px solid #23ab55;
-    background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
-    font-weight: normal;
-    color: #1c8e46;
+	border: 1px solid #d3d3d3;
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+	font-weight: normal;
+	color: #555555;
 }
 .ui-state-default a,
 .ui-state-default a:link,
